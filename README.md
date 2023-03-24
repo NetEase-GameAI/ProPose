@@ -6,3 +6,19 @@
 > CVPR 2023  
 
 Coming soon...
+
+
+
+## Citation  
+
+```
+@inproceedings{fang2023propose,
+  title     = {Learning Analytical Posterior Probability for Human Mesh Recovery},
+  author    = {Fang, Qi and Chen, Kang and Fan, Yinghui and Shuai, Qing and Li, Jiefeng and Zhang, Weidong},
+  booktitle = {CVPR},
+  year      = {2023},
+}
+```
+
+## Acknowledgement  
+We would like to thank Dingwei Wu for his advice about rendering in Blender.
