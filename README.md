@@ -6,11 +6,10 @@
 > CVPR 2023  
 
 <div align="left">
-<img src="assets/soccer.gif" height="200"> <img src="assets/parkour.gif" height="200">
+<img src="assets/soccer.gif" height="200"> <img src="assets/parkour.gif" height="200"> <img src="assets/samples.png" height="200">
 <br>
 <sup>
 Single-frame results. (@<a href="https://www.youtube.com/watch?v=hS3UGaZSAuk&ab_channel=Joris">soccer</a>, @<a href="https://www.youtube.com/watch?v=uqOWoeJ7bpo&ab_channel=urbanamadei">parkoour</a>)
-
 </sup>
 </div>
 
