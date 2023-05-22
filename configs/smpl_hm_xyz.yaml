@@ -1,0 +1,55 @@
+DATASET:
+  DATASET: 'mix_smpl_cam'
+  SCALE_FACTOR: 0.3
+  COLOR_FACTOR: 0.2
+  OCCLUSION: False
+  DPG: False
+  ROT_FACTOR: 30
+  FLIP: True
+  NUM_JOINTS_HALF_BODY: 5
+  PROB_HALF_BODY: 0.2
+MODEL:
+  TYPE: 'MFHeatmapXYZ'
+  PRETRAINED: ''
+  TRY_LOAD:  ''
+  FOCAL_LENGTH: 1000
+  USE_KID: False
+  IMAGE_SIZE:
+  - 256
+  - 256
+  HEATMAP_SIZE:
+  - 64
+  - 64
+  DEPTH_DIM: 64
+  NUM_JOINTS: 35
+  BBOX_3D_SHAPE:
+  - 2000
+  - 2000
+  - 2000
+  EXTRA:
+    SIGMA: 2
+    BACKBONE: 'hrnet'
+    WRAPPER: 'smpl_3d_cam'
+    NORM_TYPE: 'softmax'
+LOSS:
+  TYPE: 'LossSMPLCam'
+  ELEMENTS:
+    XYZ_HM_WEIGHT: 1.
+    BETA_WEIGHT: 1.
+    THETA_WEIGHT: 0.1
+    UV_WEIGHT: 1.
+    REG_WEIGHT: 0.
+    VERTICE_WEIGHT: 0.
+TRAIN:
+  NUM_NODES: 1
+  WORLD_SIZE: 1
+  BATCH_SIZE: 16
+  BEGIN_EPOCH: 0
+  END_EPOCH: 50
+  OPTIMIZER: 'adam'
+  LR: 0.001
+  LR_FACTOR: 0.1
+  LR_STEP:
+  - 10
+  - 20
+  - 35
