@@ -48,11 +48,8 @@ python scripts/demo.py --img-dir ./examples --out-dir dump_demo --ckpt './model_
 sh ./scripts/train.sh exp_name ./configs/smpl_hm_xyz.yaml
 ```
 
-## Remark
-See [remarks](./remarks.md) for more discussions and illustrations.
-
-## Contact
-Please open an issue (preferred) or send an email to Qi Fang (fangqi19@zju.edu.cn) if you have any questions.
+## Discussion
+See [discussion](./discussion.md) for clarifications and limitations. Please open an issue (preferred) or send an email to Qi Fang (fangqi19@zju.edu.cn) if you have any questions.
 
 ## Citation  
 ```
