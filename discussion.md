@@ -1,5 +1,5 @@
 
-## Remarks
+## Discussion
 The current code, mainly the keypoint branch, is somewhat different from the description in the paper. In the paper, we use the `uvd` format following [HybrIK](https://github.com/Jeff-sjtu/HybrIK), i.e., the 2D keypoints in the image space and the relative depth to the root joint. To tackle the truncation better, we here adopt the `xyz` format similar to [MeTRAbs](https://github.com/isarandi/metrabs), i.e., the 3D joint poistions in the metric space. The former is more accurate when the person is not truncated, while the latter is more robust for various cases. 
 
 There are still some limitations that need to be addressed:
