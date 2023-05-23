@@ -18,13 +18,10 @@ Single-frame results. (@<a href="https://www.youtube.com/watch?v=hS3UGaZSAuk&ab_
 conda create -n propose python=3.8
 conda activate propose
 pip install -r requirements.txt
-```
-
-## Visualization
-```
+# visualization
 pip install opendr
 ```
-See this [issue](https://github.com/akanazawa/hmr/issues/82#issuecomment-557430371) if some errors occur.
+See this [issue](https://github.com/akanazawa/hmr/issues/82#issuecomment-557430371) if errors occur when installing opendr.
 
 ## Data
 ### SMPL Files and Pretrained Model  
@@ -50,6 +47,11 @@ sh ./scripts/train.sh exp_name ./configs/smpl_hm_xyz.yaml
 
 ## Discussion
 See [discussion](./discussion.md) for clarifications and limitations. Please open an issue (preferred) or send an email to Qi Fang (fangqi19@zju.edu.cn) if you have any questions.
+
+## TODO
+- [ ] Evaluation part (original).
+- [ ] Saved training annotations.
+- [ ] Distribution visualization.
 
 ## Citation  
 ```
