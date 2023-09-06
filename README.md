@@ -1,5 +1,5 @@
 # Learning Analytical Posterior Probability for Human Mesh Recovery
-### [Project Page](https://netease-gameai.github.io/ProPose/) | [Paper](https://netease-gameai.github.io/ProPose/static/assets/CVPR2023_ProPose.pdf)
+### [Project Page](https://netease-gameai.github.io/ProPose/) | [Paper](https://netease-gameai.github.io/ProPose/static/assets/CVPR2023_ProPose.pdf) | [推文](https://mp.weixin.qq.com/s/DdCLB1pghVLD3yPh8QeWxw)
 
 > [Learning Analytical Posterior Probability for Human Mesh Recovery](https://netease-gameai.github.io/ProPose/static/assets/CVPR2023_ProPose.pdf)    
 > Qi Fang, Kang Chen, Yinghui Fan, Qing Shuai, Jiefeng Li, Weidong Zhang  
