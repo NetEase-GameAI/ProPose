@@ -161,6 +161,9 @@ def get_one_box(det_output, thrd=0.9):
     if thrd < 0.3:
         return None
     for i in range(det_output['boxes'].shape[0]):
+        # if label is not 1 (person), continue
+        if det_output['labels'][i] != 1:
+            continue
         bbox = det_output['boxes'][i]
         score = det_output['scores'][i]
         if float(score) < thrd:
